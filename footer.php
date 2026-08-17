@@ -8,7 +8,7 @@
                     <div class="footer-logo">
                         <!-- ロゴ -->
                         <a href="index.html">
-                            <img src="img/logo2_white.svg" alt="さわやか歯科医院ロゴ" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/logo2_white.svg" alt="さわやか歯科医院ロゴ" />
                         </a>
                     </div>
                     <address>
