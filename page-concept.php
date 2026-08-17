@@ -8,7 +8,7 @@
                 alt="外観" />
         </picture>
         <div class="fv-copy fv-copy-subpage">
-            <h1 class="fv-message-subpage">当院の特徴</h1>
+            <h1 class="fv-message-subpage"><?php the_title(); ?></h1>
         </div>
     </section>
     <!-- First View ここまで-->
