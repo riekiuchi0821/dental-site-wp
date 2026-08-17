@@ -1,5 +1,4 @@
         <!-- パンくず-->
-        <div class="container section">
           <nav class="breadcrumb" aria-label="パンくずリスト">
             <ol class="breadcrumb-list">
               <li><a href="<?php echo esc_url(home_url('/')); ?>">ホーム</a></li>
@@ -8,5 +7,4 @@
               </li>
             </ol>
           </nav>
-        </div>
         <!-- パンくずここまで-->
