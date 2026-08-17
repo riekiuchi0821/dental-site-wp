@@ -25,7 +25,7 @@
             <div class="blog-layout section">
                 <!-- ブログ -->
                 <section class="blog-list">
-                    <div class="article-body">
+                    <div class="article-body blog-card-background">
                         <div class="blog-card-info">
                             <time>
                                 <?php echo get_the_date('Y.m.d'); ?>
