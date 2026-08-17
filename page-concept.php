@@ -15,7 +15,9 @@
 
     <!-- パンくず-->
     <div class="section-background-img">
-        <?php get_template_part('breadcrumb'); ?>
+        <div class="container section">
+          <?php get_template_part('breadcrumb'); ?>
+        </div>
         <!-- パンくずここまで-->
 
         <!-- Concept -->
