@@ -835,6 +835,11 @@ body {
   padding-bottom: 8px;
 }
 
+.sidebar-category-link {
+  text-align: end;
+  text-decoration: underline;
+}
+
 /* ========================================
    お知らせ article
 ======================================== */
@@ -856,6 +861,7 @@ body {
   color: var(--color-mainblue);
   font-size: 20px;
   padding: 16px 16px;
+  margin: 24px 0;
 }
 
 .article-body h3 {
@@ -876,6 +882,8 @@ body {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+
 
 /* ========================================
    診療内容
