@@ -39,9 +39,6 @@
                             <?php the_content(); ?>
                         </div>
                     </div>
-                    <div class="blog-pagination">
-                        <p>＜＜　1 ＞＞</p>
-                    </div>
                 </section>
                 <!-- ブログここまで-->
 
