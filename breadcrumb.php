@@ -15,6 +15,13 @@
         <?php echo esc_html(get_the_title(get_option('page_for_posts'))); ?>
       </li>
 
+    <?php elseif (is_category()) : ?>
+
+      <!-- ブログ一覧ページ -->
+      <li aria-current="page">
+        <?php single_cat_title(); ?>
+      </li>
+
 
     <?php elseif (is_single()) : ?>
 
