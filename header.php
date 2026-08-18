@@ -34,7 +34,7 @@
             <li><a href="../concept/index.html">当院の特徴</a></li>
             <li><a href="../services/index.html">診療内容</a></li>
             <li><a href="../doctors/index.html">医師紹介</a></li>
-            <li><a href="../blog/index.html">お知らせ</a></li>
+            <li><a href="../blog/index.html">ブログ</a></li>
           </ul>
         </nav>
       </div>
@@ -68,7 +68,7 @@
           <li><a href="../concept/index.html">当院の特徴</a></li>
           <li><a href="../services/index.html">診療内容</a></li>
           <li><a href="../doctors/index.html">医師紹介</a></li>
-          <li><a href="../blog/index.html">お知らせ</a></li>
+          <li><a href="../blog/index.html">ブログ</a></li>
         </ul>
       </nav>
 

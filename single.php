@@ -9,7 +9,7 @@
                 alt="受付" />
         </picture>
         <div class="fv-copy fv-copy-subpage">
-            <h2 class="fv-message-subpage">記事</h2>
+            <h2 class="fv-message-subpage"><?php echo esc_html(get_the_category()[0]->name); ?></h2>
         </div>
     </section>
     <!-- First View ここまで-->
