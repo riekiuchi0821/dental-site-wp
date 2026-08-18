@@ -1,5 +1,4 @@
 <?php
-
 function dental_theme_enqueue_styles() {
 
     wp_enqueue_style(
@@ -23,3 +22,4 @@ function dental_theme_enqueue_styles() {
 
 add_action('wp_enqueue_scripts', 'dental_theme_enqueue_styles');
 
+add_theme_support('title-tag');

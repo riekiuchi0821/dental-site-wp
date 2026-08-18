@@ -15,8 +15,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>さわやか歯科医院</title>
-
     <?php wp_head(); ?>
   </head>
 
