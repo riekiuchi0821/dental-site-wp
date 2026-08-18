@@ -848,6 +848,20 @@ body {
   color: var(--color-mainblue);
 }
 
+.blog-pagination .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.blog-pagination .nav-links a {
+  text-decoration: underline;
+}
+
+.blog-pagination .nav-links a:hover {
+  color: var(--color-mainblue);
+}
 
 /* ========================================
    お知らせ article

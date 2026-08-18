@@ -45,11 +45,8 @@
                         <?php endwhile; ?>
                     <?php endif; ?>
 
-
-
-                    <div class="blog-pagination">
-                        <p>＜＜　1 ＞＞</p>
-                    </div>
+                    <!-- ページネーション -->
+                    <?php get_template_part('pagination'); ?>
                 </section>
                 <!-- ブログここまで-->
 
