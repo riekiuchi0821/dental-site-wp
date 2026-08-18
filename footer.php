@@ -8,7 +8,8 @@
                     <div class="footer-logo">
                         <!-- ロゴ -->
                         <a href="<?php echo esc_url(home_url('/')); ?>">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/logo2_white.svg" alt="さわやか歯科医院ロゴ" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/logo2_white.svg"
+                                alt="さわやか歯科医院ロゴ" />
                         </a>
                     </div>
                     <address>
@@ -21,8 +22,14 @@
                         </p>
                     </address>
                 </div>
-                <div class="footer-cta">
-                    <a href="#" class="cta-button">Web予約</a>
+                <div class="footer-contact">
+                    <div class="footer-cta">
+                        <a href="#" class="cta-button">Web予約</a>
+                    </div>                    
+                    <div class="footer-tel">
+                        <p class="tel-title">電話予約はこちら</p>
+                        <a href="tel:0123456789" class="tel-button">☎ 012-345-6789</a>
+                    </div>
                 </div>
             </div>
             <!-- フッター左側ここまで -->
@@ -88,4 +95,5 @@
 
 <?php wp_footer(); ?>
 </body>
+
 </html>
