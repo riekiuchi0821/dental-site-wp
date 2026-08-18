@@ -2,10 +2,6 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="中野区のさわやか歯科クリニック。小さなお子さまからご年配の方まで安心して通える歯科医院です。痛みの少ない治療、予防歯科、最新設備でお口の健康をサポートします。"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/destyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
