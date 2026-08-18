@@ -25,16 +25,16 @@
     <header id="header-area">
       <div class="header-menu">
         <!-- ロゴ -->
-        <a href="index.html" class="header-logo">
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo">
           <img src="<?php echo get_template_directory_uri(); ?>/img/logo2.svg" alt="さわやか歯科医院ロゴ" />
         </a>
         <!-- ナビゲーション -->
         <nav id="header-navigation">
           <ul>
-            <li><a href="../concept/index.html">当院の特徴</a></li>
-            <li><a href="../services/index.html">診療内容</a></li>
-            <li><a href="../doctors/index.html">医師紹介</a></li>
-            <li><a href="../blog/index.html">ブログ</a></li>
+            <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('concept'))); ?>">当院の特徴</a></li>
+            <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">診療内容</a></li>
+            <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('doctors'))); ?>">医師紹介</a></li>
+            <li><a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>">ブログ</a></li>
           </ul>
         </nav>
       </div>
@@ -64,11 +64,11 @@
       <!-- SPナビゲーション -->
       <nav id="sp-navigation">
         <ul>
-          <li><a href="../index.html">ホーム</a></li>
-          <li><a href="../concept/index.html">当院の特徴</a></li>
-          <li><a href="../services/index.html">診療内容</a></li>
-          <li><a href="../doctors/index.html">医師紹介</a></li>
-          <li><a href="../blog/index.html">ブログ</a></li>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>">ホーム</a></li>
+          <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('concept'))); ?>">当院の特徴</a></li>
+          <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">診療内容</a></li>
+          <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('doctors'))); ?>">医師紹介</a></li>
+          <li><a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>">ブログ</a></li>
         </ul>
       </nav>
 

@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="concept-button">
-          <a href="concept/index.html" class="primary-button">詳しく見る →</a>
+          <a href="<?php echo esc_url(get_permalink(get_page_by_path('concept'))); ?>" class="primary-button">詳しく見る →</a>
         </div>
       </div>
     </div>
@@ -168,7 +168,7 @@
               </div>
             </div>
             <div class="service-button">
-              <a href="services/index.html#general" class="primary-button">一般歯科へ →</a>
+              <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>#general" class="primary-button">一般歯科へ →</a>
             </div>
           </article>
           <article class="service-card">
@@ -186,7 +186,7 @@
               </div>
             </div>
             <div class="service-button">
-              <a href="services/index.html#prevention" class="primary-button">予防歯科へ →</a>
+              <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>#prevention" class="primary-button">予防歯科へ →</a>
             </div>
           </article>
           <article class="service-card">
@@ -204,7 +204,7 @@
               </div>
             </div>
             <div class="service-button">
-              <a href="services/index.html#child" class="primary-button">小児歯科へ →</a>
+              <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>#child" class="primary-button">小児歯科へ →</a>
             </div>
           </article>
           <article class="service-card">
@@ -222,7 +222,7 @@
               </div>
             </div>
             <div class="service-button">
-              <a href="services/index.html#sergery" class="primary-button">口腔外科へ →</a>
+              <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>#sergery" class="primary-button">口腔外科へ →</a>
             </div>
           </article>
         </div>
