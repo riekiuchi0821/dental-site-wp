@@ -36,10 +36,10 @@
                                 <h2 class="blog-card-title"><?php the_title(); ?></h2>
                                 <div class="card-divider"></div>
                                 <p>
-                                    <?php echo wp_trim_words(get_the_content(), 40, '...'); ?>
+                                    <?php echo wp_trim_words(get_the_content(), 60, '...'); ?>
                                 </p>
                                 <div class="blog-button">
-                                    <a href="article.html" class="primary-button">詳細へ →</a>
+                                    <a href="<?php the_permalink(); ?>" class="primary-button">詳細へ →</a>
                                 </div>
                             </article>
                         <?php endwhile; ?>
@@ -54,12 +54,7 @@
                 <!-- ブログここまで-->
 
                 <!-- サイドバー -->
-                <aside class="sidebar-category">
-                    <div class="sidebar-category-title">category</div>
-                    <div>正しい歯磨きのコツ！毎日のケアで虫歯・歯周病を防ごう</div>
-                    <div>正しい歯磨きのコツ！毎日のケアで虫歯・歯周病を防ごう</div>
-                </aside>
-                <!-- サイドバーここまで -->
+                <?php get_sidebar(); ?>
             </div>
         </div>
     </div>

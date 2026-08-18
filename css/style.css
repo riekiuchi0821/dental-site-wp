@@ -835,10 +835,19 @@ body {
   padding-bottom: 8px;
 }
 
+.sidebar-blog-title:hover {
+  color: var(--color-mainblue);
+}
+
 .sidebar-category-link {
   text-align: end;
   text-decoration: underline;
 }
+
+.sidebar-category-link:hover {
+  color: var(--color-mainblue);
+}
+
 
 /* ========================================
    お知らせ article
