@@ -24,7 +24,7 @@
                 </div>
                 <div class="footer-contact">
                     <div class="footer-cta">
-                        <a href="#" class="cta-button">Web予約</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('reserve'))); ?>" class="cta-button">Web予約</a>
                     </div>                    
                     <div class="footer-tel">
                         <p class="tel-title">電話予約はこちら</p>

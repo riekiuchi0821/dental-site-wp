@@ -34,7 +34,7 @@
       </div>
 
       <div class="header-contact">
-        <a href="#" class="cta-button">Web予約</a>
+        <a href="<?php echo esc_url(get_permalink(get_page_by_path('reserve'))); ?>" class="cta-button">Web予約</a>
         <div>
           <p class="tel-title">電話予約はこちら</p>
           <p class="tel-num">012-345-6789</p>
@@ -68,7 +68,7 @@
 
       <!-- SP予約ボタン -->
       <div class="sp-fixed-menu">
-        <a href="#" class="cta-button sp-cta-button">Web予約</a>
+        <a href="<?php echo esc_url(get_permalink(get_page_by_path('reserve'))); ?>" class="cta-button sp-cta-button">Web予約</a>
         <a href="tel:0123456789" class="sp-tel-button">☎ 012-345-6789</a>
       </div>
 
