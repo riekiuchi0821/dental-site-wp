@@ -29,6 +29,7 @@
             <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">診療内容</a></li>
             <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('doctors'))); ?>">医師紹介</a></li>
             <li><a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>">ブログ</a></li>
+            <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>
@@ -63,6 +64,7 @@
           <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">診療内容</a></li>
           <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('doctors'))); ?>">医師紹介</a></li>
           <li><a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>">ブログ</a></li>
+          <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">お問い合わせ</a></li>          
         </ul>
       </nav>
 
