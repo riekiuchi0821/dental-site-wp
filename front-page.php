@@ -4,12 +4,17 @@
 <main>
   <!-- First View -->
   <section id="fv" class="fv-top">
-    <picture class="fv-area-top">
-      <!-- 1050px以下：SP用 -->
-      <source media="(max-width: 1050px)" srcset="<?php echo get_template_directory_uri(); ?>/img/hero-1-sp.jpg" />
-      <img class="fv-image fv-image--center" src="<?php echo get_template_directory_uri(); ?>/img/hero-1.jpg"
-        alt="ファーストビュー画像" />
-    </picture>
+    <div class="fv-area-top">
+      <picture class="slide active">
+        <!-- 1050px以下：SP用 -->
+        <source media="(max-width: 1050px)" srcset="<?php echo get_template_directory_uri(); ?>/img/hero-1-sp.jpg" />
+        <img class="fv-image fv-image--center" src="<?php echo get_template_directory_uri(); ?>/img/hero-1.jpg" alt="歯科医の診察" />
+      </picture>
+      <picture class="slide">
+        <source media="(max-width: 1050px)" srcset="<?php echo get_template_directory_uri(); ?>/img/img3_sp.jpg" />
+        <img class="fv-image fv-image--center" src="<?php echo get_template_directory_uri(); ?>/img/img3.jpg" alt="院内画像" />
+      </picture>
+    </div>
     <div class="fv-copy">
       <h1 class="fv-message-main">
         <span class="fv-message-sub">安心して通える</span>
